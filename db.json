@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": "admin1",
+      "username": "Administrator",
+      "email": "admin@admin.pl",
+      "password": "admin",
+      "role": "admin",
+      "createdAt": "2025-05-31T17:00:00.000Z"
+    },
+    {
+      "id": "a8e2",
+      "username": "michaltest",
+      "email": "michaltest@michaltest.pl",
+      "password": "michaltest",
+      "role": "user",
+      "createdAt": "2025-06-01T10:48:55.624Z"
+    },
+    {
+      "id": "1fa7",
+      "username": "michaltest2",
+      "email": "michaltest2@michaltest2.pl",
+      "password": "michaltest2",
+      "role": "user",
+      "createdAt": "2025-06-01T10:50:44.670Z"
+    }
+  ],
+  "meetings": [
+    {
+      "id": "event1",
+      "title": "Spotkanie testowe",
+      "description": "Pierwsze spotkanie",
+      "date": "2025-06-01",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "participants": [
+        "admin@admin.pl"
+      ],
+      "createdBy": "admin@admin.pl",
+      "status": "Odwołane"
+    }
+  ]
+}

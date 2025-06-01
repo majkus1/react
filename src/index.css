@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply p-2 border rounded outline-blue-300;
+}
+
+.btn-red {
+  @apply bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded text-sm;
+}
+
+.btn-yellow {
+  @apply bg-yellow-400 hover:bg-yellow-500 text-white px-3 py-1 rounded text-sm;
+}
+
+.react-calendar {
+  width: 100% !important;
+}
